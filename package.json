@@ -32,13 +32,11 @@
     "@changesets/cli": "^2.30.0",
     "@testing-library/jest-dom": "^6.9.1",
     "@types/node": "^25.5.0",
-    "@vitest/coverage-v8": "^4.1.2",
     "jsdom": "^29.0.1",
     "taze": "latest",
     "typescript": "~6.0.2",
     "vite": "npm:@voidzero-dev/vite-plus-core@latest",
-    "vite-plus": "https://pkg.pr.new/voidzero-dev/vite-plus@1588",
-    "vitest": "^4.1.5"
+    "vite-plus": "https://pkg.pr.new/voidzero-dev/vite-plus@1588"
   },
   "packageManager": "pnpm@10.33.0",
   "pnpm": {
