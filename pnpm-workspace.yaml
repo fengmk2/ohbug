@@ -1,3 +1,16 @@
 packages:
   - "packages/**"
   - playground
+
+blockExoticSubdeps: false
+minimumReleaseAge: 60
+minimumReleaseAgeExclude:
+  - vite-plus
+  - "@voidzero-dev/*"
+  - "@oxc-project/*"
+  - "@oxlint/*"
+  - oxlint
+  - oxfmt
+  - oxlint-tsgolint
+  - vitest
+  - "@vitest/*"
