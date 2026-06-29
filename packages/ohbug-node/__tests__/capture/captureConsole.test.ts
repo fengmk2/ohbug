@@ -1,6 +1,6 @@
 import type { OhbugClient } from "@ohbug/types";
 // @vitest-environment node
-import { afterEach, beforeEach, describe, expect, test, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, test, vi } from "vite-plus/test";
 
 import { captureConsole, removeCaptureConsole } from "../../src/capture/captureConsole";
 import { cleanupTestClient, setupTestClient } from "../utils";

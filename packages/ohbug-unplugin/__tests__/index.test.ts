@@ -1,4 +1,4 @@
-import { describe, expect, test, vi } from "vitest";
+import { describe, expect, test, vi } from "vite-plus/test";
 
 vi.mock("@ohbug/cli", () => ({
   uploadSourceMap: vi.fn().mockResolvedValue(undefined),

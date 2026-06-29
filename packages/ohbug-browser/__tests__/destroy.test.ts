@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, test, vi } from "vitest";
+import { afterEach, describe, expect, test, vi } from "vite-plus/test";
 
 import { destroy, handleDestroy } from "../src/destroy";
 import { cleanupTestClient, setupTestClient } from "./utils";

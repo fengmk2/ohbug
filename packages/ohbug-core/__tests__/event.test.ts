@@ -1,4 +1,4 @@
-import { describe, expect, test, vi } from "vitest";
+import { describe, expect, test, vi } from "vite-plus/test";
 
 import { Client } from "../src/client";
 import { Event, createEvent, handleEventCreated, isEvent } from "../src/event";

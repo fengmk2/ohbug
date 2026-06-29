@@ -1,6 +1,6 @@
 import { Client } from "@ohbug/core";
 import type { OhbugConfig, OhbugEventWithMethods, OhbugGetDevice } from "@ohbug/types";
-import { describe, expect, test, vi } from "vitest";
+import { describe, expect, test, vi } from "vite-plus/test";
 
 import createProvider from "../src/createProvider";
 

@@ -1,6 +1,6 @@
 import type { OhbugMetadata, OhbugUser } from "@ohbug/types";
 import { isObject, isPromise } from "@ohbug/utils";
-import { describe, expect, test, vi } from "vitest";
+import { describe, expect, test, vi } from "vite-plus/test";
 
 import { Action } from "../src/action";
 import { Client } from "../src/client";

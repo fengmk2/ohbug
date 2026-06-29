@@ -1,4 +1,4 @@
-import { afterEach, beforeEach, describe, expect, test } from "vitest";
+import { afterEach, beforeEach, describe, expect, test } from "vite-plus/test";
 
 import { captureWebSocketError } from "../../src/capture/network/captureWebSocketError";
 import { cleanupTestClient, setupTestClient } from "../utils";
