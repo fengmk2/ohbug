@@ -1,6 +1,6 @@
 import { Client } from "@ohbug/core";
 import type { OhbugConfig, OhbugEventWithMethods, OhbugGetDevice } from "@ohbug/types";
-import { describe, expect, test } from "vitest";
+import { describe, expect, test } from "vite-plus/test";
 
 import createVueClient from "../src/index";
 

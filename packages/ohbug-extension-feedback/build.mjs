@@ -1,3 +1,3 @@
-import { build } from "vite";
+import { build } from "vite-plus";
 
 await build();

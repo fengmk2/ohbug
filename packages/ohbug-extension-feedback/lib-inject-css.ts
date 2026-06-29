@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import { resolve } from "node:path";
 
-import { type PluginOption, type ResolvedConfig } from "vite";
+import { type PluginOption, type ResolvedConfig } from "vite-plus";
 
 const fileRegex = /\.(css)$/;
 const injectCode = (code: string) =>

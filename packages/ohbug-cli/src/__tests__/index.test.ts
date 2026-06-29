@@ -3,7 +3,7 @@ import { readdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { afterAll, afterEach, beforeAll, describe, expect, it } from "vitest";
+import { afterAll, afterEach, beforeAll, describe, expect, it } from "vite-plus/test";
 
 import request from "../lib/request";
 import uploadSourceMap from "../lib/uploadSourceMap";

@@ -23,7 +23,7 @@
   },
   "funding": "https://github.com/sponsors/xinyao27",
   "bin": {
-    "ohbug": "dist/ohbug.mjs"
+    "cli": "./dist/ohbug.mjs"
   },
   "files": [
     "dist"

@@ -1,6 +1,6 @@
 // @vitest-environment node
 import type { OhbugEventWithMethods } from "@ohbug/types";
-import { afterEach, describe, expect, test, vi } from "vitest";
+import { afterEach, describe, expect, test, vi } from "vite-plus/test";
 
 import { notifier } from "../src/notifier";
 import { cleanupTestClient, setupTestClient } from "./utils";

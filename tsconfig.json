@@ -3,7 +3,7 @@
     "target": "ES2023",
     "module": "ESNext",
     "lib": ["ES2023", "DOM", "DOM.Iterable"],
-    "types": ["vite/client", "node"],
+    "types": ["vite-plus/client", "node"],
     "skipLibCheck": true,
     "paths": {
       "@ohbug/unplugin": ["./packages/ohbug-unplugin/src"],

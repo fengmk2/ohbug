@@ -1,5 +1,5 @@
 import type { OhbugConfig } from "@ohbug/types";
-import { describe, expect, test } from "vitest";
+import { describe, expect, test } from "vite-plus/test";
 
 import { schema } from "../src/config";
 

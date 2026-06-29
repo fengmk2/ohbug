@@ -1,4 +1,4 @@
-import { afterEach, beforeEach, describe, expect, test } from "vitest";
+import { afterEach, beforeEach, describe, expect, test } from "vite-plus/test";
 
 import { captureConsole, removeCaptureConsole } from "../../src/capture/console/captureConsole";
 import { cleanupTestClient, setupTestClient } from "../utils";

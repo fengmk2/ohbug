@@ -1,5 +1,5 @@
 // @vitest-environment node
-import { afterEach, beforeEach, describe, expect, test, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, test, vi } from "vite-plus/test";
 
 import { uncaughtExceptionHandler } from "../../src/handle/uncaughtExceptionHandler";
 import { unhandledRejectionHandler } from "../../src/handle/unhandledRejectionHandler";

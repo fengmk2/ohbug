@@ -1,7 +1,7 @@
 import { Client } from "@ohbug/core";
 import type { OhbugConfig, OhbugEventWithMethods, OhbugGetDevice } from "@ohbug/types";
 import React from "react";
-import { describe, expect, test, vi } from "vitest";
+import { describe, expect, test, vi } from "vite-plus/test";
 
 import { OhbugErrorBoundary } from "../src/OhbugErrorBoundary";
 
